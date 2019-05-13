@@ -1,9 +1,136 @@
 @charset "UTF-8";
-/* 
+    *{
+            margin:0;
+            padding: 0;
+            list-style: none;
+            font-family: sans-serif;
+    }
+    header{
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 120px;
+    }
+    #logo{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            bottom: 0;
+            right: 0;
+            width: 200px;
+            height: 60px;
+            font-size: 50px;
+            font-family: arial;
+            text-align: center;
+            line-height: 60px;
+    }
+    .redes{
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            background: #ccc;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 42px;
+            color:white;
+    }
+    #icono1{
+    top:42px;
+    right: 120px;
+    background: blue;
+    }
+    #icono2{
+    top:42px;
+    right: 71px;
+    background: lightblue;
+    }
+    #icono3{
+    top:42px;
+    right: 19px;
+    background: magenta;
+    }
+    nav{
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 48px;
+    }
+    .botones{
+            float: right;
+            width: 196px;
+            height: 48px;
+            margin: 0 2px;
+            background: rgba(100,0,255,1);
+            font-family: times new roman;
+            color: white;
+            text-align: center;
+            line-height: 48px;
+    }
+    #top{
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 192px;
+    }
+    #top ul{
+            width: 1010px;
+            height: 192px;
+    }
 
-	Main Project Stylesheet
+    #top ul li{
+            float: left;
+            width: 326px;
+            height: 193px;
+            margin-right: 10px;
+            text-align: center;
+    }
+    #top ul li img{
+            border-radius: 100%;
+            height: 100px;
+    }
+    #top ul li h1{
+            font-family: Arial;
+    }
+    #top ul li p{
+            font-size: 14px;
+            margin:10px;
+    }
+    section{
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 453px;
+            background: white;
+    }
+    aside#izq{
+            position: absolute;
+            left:0;
+            top:0;
+            width: 200px;
+            height: 453px;
+            background: white;
+    }
+    article{
+            position:absolute;
+            left: 200px;
+            top:0;
+            width: 600px;
+            height: 453px;
+            background: gray;
+    }
+    aside#der{
+            position: absolute;
+            left:0;
+            right:0;
+            width: 200px;
+            height: 453px;
+            background: white;
+    }
 
- */
- p{
-	 font-family: arial;
- }
+    footer{
+            position: relative;
+            margin: 20px auto;
+            width: 1000px;
+            height: 70px;
+            background: #888;
+    }
