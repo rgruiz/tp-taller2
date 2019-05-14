@@ -14,7 +14,7 @@
     #logo{
             position: absolute;
             top: 30px;
-            left: 30px;
+            left: 90px;
             bottom: 0;
             right: 0;
             width: 200px;
@@ -26,8 +26,8 @@
     }
     .redes{
             position: absolute;
-            width: 42px;
-            height: 42px;
+            width: 30px;
+            height: 30px;
             background: #ccc;
             border-radius: 100%;
             text-align: center;
@@ -55,14 +55,53 @@
             width: 1000px;
             height: 48px;
     }
+    .socicons-list {
+          list-style: none;
+          display: flex;
+          justify-content: flex-end;
+          align-items: right;
+          height: 70vh;
+        }
+        .socicons-list li {
+          margin: 30px 10px;
+        }
+        .socicons-list li a {
+          text-decoration: none;
+          padding: 30px;
+            font-size: 30px;
+          border-radius: 50%;
+          color: #fff;
+            background-color: #f1f1f1;
+          transition: all ease-in-out 150ms;
+        }
+        .socicons-list li a:hover {
+        text-shadow: 0 5px 10px #212121;
+        }
+
+        .socicons-list li:nth-child(1) a {
+            top:42px;
+            right: 120px;
+            background-color: #3e5b98;
+        }
+        .socicons-list li:nth-child(2) a {
+            top:42px;
+            right: 71px;
+            background-color: #c13584;
+        }
+        .socicons-list li:nth-child(3) a {
+            top:42px;
+            right: 19px;
+            background-color: #4da7de;
+        }
+
     .botones{
             float: right;
-            width: 196px;
+            width: 1000px;
             height: 48px;
             margin: 0 2px;
-            background: rgba(100,0,255,1);
+            background: graytext;
             font-family: times new roman;
-            color: white;
+            color: black;
             text-align: center;
             line-height: 48px;
     }
